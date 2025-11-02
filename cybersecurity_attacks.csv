@@ -1,0 +1,101 @@
+id,date,year,attack_type,target,source
+1,2024-01-05,2024,Phishing,Email,External
+2,2024-01-08,2024,Phishing,Email,External
+3,2024-01-12,2024,Phishing,Email,External
+4,2024-01-15,2024,Phishing,Email,External
+5,2024-01-18,2024,Phishing,Email,External
+6,2024-01-20,2024,Phishing,Email,External
+7,2024-01-25,2024,Phishing,Workstation,External
+8,2024-02-02,2024,Phishing,Email,External
+9,2024-02-06,2024,Phishing,Email,External
+10,2024-02-10,2024,Phishing,Email,External
+11,2024-02-14,2024,Phishing,Login Portal,External
+12,2024-02-18,2024,Phishing,Email,External
+13,2024-02-22,2024,Phishing,Email,External
+14,2024-02-26,2024,Phishing,Email,External
+15,2024-03-01,2024,Phishing,Email,External
+16,2024-03-05,2024,Phishing,Workstation,External
+17,2024-03-09,2024,Phishing,Email,External
+18,2024-03-13,2024,Phishing,Email,External
+19,2024-03-17,2024,Phishing,Email,External
+20,2024-03-21,2024,Phishing,Email,External
+21,2024-03-25,2024,Phishing,Email,External
+22,2024-04-01,2024,Phishing,Login Portal,External
+23,2024-04-04,2024,Phishing,Email,External
+24,2024-04-08,2024,Phishing,Workstation,External
+25,2024-04-12,2024,Phishing,Email,External
+26,2024-04-16,2024,Phishing,Email,External
+27,2024-04-20,2024,Phishing,Email,External
+28,2024-04-24,2024,Phishing,Email,External
+29,2024-04-28,2024,Phishing,Email,External
+30,2024-05-02,2024,Phishing,Email,External
+31,2024-05-06,2024,Malware,Workstation,External
+32,2024-05-10,2024,Malware,Workstation,External
+33,2024-05-14,2024,Malware,Workstation,External
+34,2024-05-18,2024,Malware,Workstation,External
+35,2024-05-22,2024,Malware,Workstation,External
+36,2024-05-26,2024,Malware,Workstation,External
+37,2024-06-01,2024,Malware,Workstation,External
+38,2024-06-05,2024,Malware,Workstation,External
+39,2024-06-09,2024,Malware,Workstation,External
+40,2024-06-13,2024,Malware,Workstation,External
+41,2024-06-17,2024,Malware,Server,External
+42,2024-06-21,2024,Malware,Server,External
+43,2024-06-25,2024,Malware,Workstation,External
+44,2024-06-29,2024,Malware,Workstation,External
+45,2024-07-03,2024,Malware,Workstation,External
+46,2024-07-07,2024,Malware,Workstation,External
+47,2024-07-11,2024,Malware,Workstation,External
+48,2024-07-15,2024,Malware,Workstation,External
+49,2024-07-19,2024,Malware,Workstation,External
+50,2024-07-23,2024,Malware,Workstation,External
+51,2024-07-27,2024,Brute Force,Login Portal,External
+52,2024-07-31,2024,Brute Force,Login Portal,External
+53,2024-08-04,2024,Brute Force,Login Portal,External
+54,2024-08-08,2024,Brute Force,Login Portal,External
+55,2024-08-12,2024,Brute Force,Login Portal,External
+56,2024-08-16,2024,Brute Force,Login Portal,External
+57,2024-08-20,2024,Brute Force,Login Portal,External
+58,2024-08-24,2024,Brute Force,Login Portal,External
+59,2024-08-28,2024,Brute Force,Login Portal,External
+60,2024-09-01,2024,Brute Force,Login Portal,External
+61,2024-09-05,2024,DDoS,Web Server,External
+62,2024-09-09,2024,DDoS,Web Server,External
+63,2024-09-13,2024,DDoS,Web Server,External
+64,2024-09-17,2024,DDoS,Web Server,External
+65,2024-09-21,2024,DDoS,Web Server,External
+66,2024-09-25,2024,DDoS,Web Server,External
+67,2024-09-29,2024,DDoS,Web Server,External
+68,2024-10-03,2024,DDoS,Web Server,External
+69,2024-10-07,2024,Ransomware,Database,External
+70,2024-10-11,2024,Ransomware,Database,External
+71,2024-10-15,2024,Ransomware,Database,External
+72,2024-10-19,2024,Ransomware,Database,External
+73,2024-10-23,2024,Ransomware,Database,External
+74,2024-10-27,2024,Ransomware,Database,External
+75,2024-10-31,2024,SQL Injection,Web Application,External
+76,2024-11-04,2024,SQL Injection,Web Application,External
+77,2024-11-08,2024,SQL Injection,Web Application,External
+78,2024-11-12,2024,SQL Injection,Web Application,External
+79,2024-11-16,2024,SQL Injection,Web Application,External
+80,2024-11-20,2024,Cross-Site Scripting,Web Application,External
+81,2024-11-24,2024,Cross-Site Scripting,Web Application,External
+82,2024-11-28,2024,Cross-Site Scripting,Web Application,External
+83,2024-12-02,2024,Cross-Site Scripting,Web Application,External
+84,2024-12-06,2024,Cross-Site Scripting,Web Application,External
+85,2024-12-10,2024,Password Spray,Login Portal,External
+86,2024-12-14,2024,Password Spray,Login Portal,External
+87,2024-12-18,2024,Password Spray,Login Portal,External
+88,2024-12-22,2024,Password Spray,Login Portal,External
+89,2024-12-26,2024,Trojan,Workstation,External
+90,2024-12-28,2024,Trojan,Workstation,External
+91,2024-12-29,2024,Trojan,Workstation,External
+92,2024-12-30,2024,Trojan,Workstation,External
+93,2024-12-31,2024,Privilege Escalation,Server,Internal
+94,2024-11-30,2024,Privilege Escalation,Server,Internal
+95,2024-10-30,2024,Privilege Escalation,Server,Internal
+96,2024-09-30,2024,Data Exfiltration,Database,Internal
+97,2024-08-30,2024,Data Exfiltration,Database,Internal
+98,2024-07-30,2024,Man-in-the-Middle,Network,External
+99,2024-06-30,2024,Zero-Day,Application,External
+100,2024-05-30,2024,Spyware,Workstation,Internal
