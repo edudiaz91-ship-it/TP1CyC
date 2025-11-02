@@ -13,6 +13,7 @@ csv_url = "[https://raw.githubusercontent.com/edudiaz91-ship-it/TP1CyC/main/cybe
 # Descargar CSV usando requests
 
 response = requests.get(csv_url)
+
 if response.status_code != 200:
 st.error("No se pudo descargar el CSV desde GitHub.")
 else:
@@ -44,4 +45,3 @@ else:
 
     st.pyplot(fig)
 ```
-
