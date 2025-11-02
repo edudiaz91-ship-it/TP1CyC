@@ -1,42 +1,20 @@
-import streamlit as st
-import pandas as pd
-import altair as alt
+# Install dependencies as needed:
+# pip install kagglehub[pandas-datasets]
+import kagglehub
+from kagglehub import KaggleDatasetAdapter
 
-st.title("Gráfico de Tipos de Ataque 2024")
+# Set the path to the file you'd like to load
+file_path = ""
 
-# URL del CSV raw en GitHub
-
-csv_url = "[https://raw.githubusercontent.com/edudiaz91-ship-it/TP1CyC/main/cybersecurity_attacks.csv](https://raw.githubusercontent.com/edudiaz91-ship-it/TP1CyC/main/cybersecurity_attacks.csv)"
-
-# Leer CSV directamente desde GitHub
-
-df = pd.read_csv(csv_url)
-
-# Verificar que existan las columnas necesarias
-
-if 'year' not in df.columns or 'attack_type' not in df.columns:
-st.error("El CSV debe tener las columnas 'year' y 'attack_type'.")
-else:
-# Filtrar solo el año 2024
-df_2024 = df[df['year'] == 2024]
-
-```
-# Contar cantidad por tipo de ataque
-attack_counts = df_2024['attack_type'].value_counts().reset_index()
-attack_counts.columns = ['attack_type', 'count']
-
-# Mostrar tabla resumida
-st.subheader("Cantidad de ataques por tipo")
-st.dataframe(attack_counts)
-
-# Crear gráfico de barras con Altair
-chart = alt.Chart(attack_counts).mark_bar(color='skyblue').encode(
-    x=alt.X('attack_type', sort='-y', title='Tipo de Ataque'),
-    y=alt.Y('count', title='Cantidad'),
-    tooltip=['attack_type', 'count']
-).properties(
-    title='Ataques por Tipo en 2024'
+# Load the latest version
+df = kagglehub.load_dataset(
+  KaggleDatasetAdapter.PANDAS,
+  "deepcontractor/cyber-security-salaries",
+  file_path,
+  # Provide any additional arguments like 
+  # sql_query or pandas_kwargs. See the 
+  # documenation for more information:
+  # https://github.com/Kaggle/kagglehub/blob/main/README.md#kaggledatasetadapterpandas
 )
 
-st.altair_chart(chart, use_container_width=True)
-```
+print("First 5 records:", df.head())
