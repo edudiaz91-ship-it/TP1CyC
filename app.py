@@ -8,7 +8,7 @@ st.title("Gráfico de Tipos de Ataque 2024")
 
 # URL del CSV raw en GitHub
 
-csv_url = "[https://raw.githubusercontent.com/edudiaz91-ship-it/TP1CyC/main/cybersecurity_attacks.csv](https://raw.githubusercontent.com/edudiaz91-ship-it/TP1CyC/main/cybersecurity_attacks.csv)"
+csv_url = "https://raw.githubusercontent.com/edudiaz91-ship-it/TP1CyC/main/cybersecurity_attacks.csv"
 
 # Descargar CSV usando requests
 
